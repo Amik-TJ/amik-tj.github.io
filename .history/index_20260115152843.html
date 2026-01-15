@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Fahad Rahman Amik</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- If you keep the template structure, keep this file. Otherwise you can remove it. -->
+  <link rel="stylesheet" href="/assets/css/global.css">
+
+  <style>
+    .inline-badge { height: 18px; width: auto; vertical-align: text-bottom; margin-right: 6px; }
+    .text-profile-position { font-size: 1.05rem; color: #333; }
+    .text-profile-bio { font-size: 1rem; color: #444; }
+    .no-break { white-space: nowrap; }
+
+    /* Video carousel styling (kept from your snippet, but cleaned) */
+    .video-container { display:flex; justify-content:center; align-items:center; padding:15px 0; position:relative; }
+    .video-nav {
+      background: rgba(255,255,255,0.9);
+      border: 1px solid #eee;
+      border-radius: 50%;
+      width: 40px; height: 40px;
+      font-size: 20px; color: #333;
+      cursor: pointer; z-index: 10;
+      transition: all 0.3s ease;
+      display:flex; justify-content:center; align-items:center;
+      position:absolute;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .video-nav:hover { background: rgba(240,240,240,0.95); transform: scale(1.1); }
+    .video-nav.left { left: 10px; }
+    .video-nav.right { right: 10px; }
+    .video-slide-wrapper { width: 100%; max-width: 560px; position:relative; overflow:hidden; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.1); }
+    .video-slides-container { display:flex; transition: transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94); will-change: transform; }
+    .video-slide { flex: 0 0 100%; width:100%; height:315px; border:none; display:block; opacity:0.7; transform:scale(0.95); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .video-slide.active { opacity:1; transform:scale(1); }
+    .video-indicators { display:flex; justify-content:center; gap:8px; margin-top: 15px; }
+    .indicator { width:10px; height:10px; border-radius:50%; background:#ccc; cursor:pointer; transition: all 0.3s ease; }
+    .indicator.active { background:#007bff; transform: scale(1.2); }
+    .indicator:hover { background:#555; }
+    @media (max-width: 600px) {
+      .video-slide-wrapper { max-width: 100%; border-radius: 8px; }
+      .video-slide { height:auto; aspect-ratio:16/9; min-height:200px; }
+      .video-nav { width:36px; height:36px; font-size:18px; }
+      .video-nav.left { left: 5px; }
+      .video-nav.right { right: 5px; }
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="/"><strong>Fahad Rahman Amik</strong></a>
+    <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <i class="fas fa-map"></i> Menu
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/publications">Publications</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="padding-top: 80px;">
+  <div class="row">
+    <div class="col">
+      <div class="card border-0 shadow-sm bg-white">
+        <div class="card-body p-5">
+          <div class="row">
+            <div class="col">
+              <div class="h1 font-weight-normal">
+                Fahad Rahman Amik
+              </div>
+
+              <div class="text-profile-position">
+                <img src="/assets/images/badges/mcgill.png" alt="McGill" class="inline-badge"/>
+                Mila and McGill University, Montreal, Canada<br/>
+                PhD Candidate, Electrical &amp; Computer Engineering (Jan 2023 – Present)
+              </div>
+
+              <div class="text-profile-bio mt-3">
+                <p>
+                  I am a PhD candidate at Mila and McGill University, working on machine learning for electronic design automation (ML for EDA),
+                  with a focus on graph representation learning for timing analysis and physical design.
+                  I am supervised by Prof. Boris Vaisband and co-supervised by Prof. Warren Gross.
+                </p>
+                <p class="mb-2">
+                  <strong>Research interests:</strong>
+                  Graph Representation Learning, Electronic Design Automation, Timing Analysis, Physical Design, and ML for EDA.
+                </p>
+              </div>
+
+              <!-- Put your CV here: /assets/files/cv.pdf -->
+              <a target="_blank" href="/assets/files/cv.pdf"><i class="fas fa-file-alt"></i> Curriculum Vitae</a><br/>
+            </div>
+
+            <div class="col-md-auto">
+              <figure class="figure mb-0">
+                <!-- Put your photo here: /assets/images/photos/profile.jpg -->
+                <img
+                  src="/assets/images/photos/profile.jpg"
+                  class="figure-img img-fluid img-thumbnail"
+                  style="height: 200px;"
+                  alt="Profile photo">
+                <figcaption class="figure-caption text-right"></figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <hr/>
+
+          <div class="row">
+            <div class="col">
+              <a class="pr-3 no-break" href="mailto:fahad.amik@mail.mcgill.ca">
+                <i class="fas fa-at"></i> <span class="email-text">fahad.amik(at)mail.mcgill.ca</span>
+              </a>
+
+              <!-- Add your Scholar link if you have it -->
+              <!-- <a class="pr-3 no-break" target="_blank" href="https://scholar.google.com/citations?user=XXXX"><i class="ai ai-google-scholar"></i> Google Scholar</a> -->
+
+              <!-- Add your GitHub if you want -->
+              <!-- <a class="pr-3 no-break" target="_blank" href="https://github.com/your_github"><i class="fab fa-github"></i> GitHub</a> -->
+
+              <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/fahadrahmanamik/">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education / Experience / Awards -->
+  <div class="row mt-3">
+    <div class="col">
+      <div class="card border-0 shadow-sm bg-white">
+        <div class="card-body p-4">
+          <div class="row">
+            <div class="col-md-6">
+
+              <div class="row">
+                <div class="col-12 mx-2 my-1">
+                  <h6>Education</h6>
+                  <ul class="list-unstyled mb-1">
+                    <li class="media mb-1">
+                      <img src="/assets/images/badges/mcgill.png" alt="McGill" style="width: 18px;" class="mr-1 mt-1">
+                      <div class="media-body">
+                        <div>Mila and McGill University</div>
+                        <div class="small d-flex">
+                          <div>PhD Candidate, Electrical &amp; Computer Engineering</div>
+                          <div class="mt-auto ml-auto no-break"><em>Jan 2023 – Present</em></div>
+                        </div>
+                        <div class="small text-muted">Topic: Machine Learning for Electronic Design Automation</div>
+                      </div>
+                    </li>
+
+                    <li class="media mb-1">
+                      <img src="/assets/images/badges/nsu.png" alt="North South University" style="width: 18px;" class="mr-1 mt-1">
+                      <div class="media-body">
+                        <div>North South University</div>
+                        <div class="small d-flex">
+                          <div>BSc in Computer Science &amp; Engineering (CGPA 3.79/4.00)</div>
+                          <div class="m
